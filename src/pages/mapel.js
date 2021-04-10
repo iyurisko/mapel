@@ -117,83 +117,9 @@ class Mapel extends React.Component {
         })
     }
 
-    gaga = () => {
-        let arr = [...this.state.arr]
-        arr[0].tes = "sss"
-
-        
-        this.setState({arr})
-        console.log(arr)
-    }
-
-
-
     render() {
-    let ss =[
-        {
-          "UniqId": "SEVA-FORM-aha15343-000201"
-        },
-        {
-          "UniqId": "SEVA-FORM-aha15343-000001"
-        },
-        // {
-        //   "UniqId": "SEVA-FORM-aha15343-000002"
-        // },
-        // {
-        //   "UniqId": "SEVA-FORM-aha15343-000003"
-        // },
-        // {
-        //   "UniqId": "SEVA-FORM-aha15343-000004"
-        // },
-        // {
-        //   "UniqId": "SEVA-FORM-aha15343-000005"
-        // },
-        // {
-        //   "UniqId": "SEVA-FORM-aha15343-000006"
-        // },
-        // {
-        //   "UniqId": "SEVA-FORM-aha15343-000007"
-        // },
-        // {
-        //   "UniqId": "SEVA-FORM-aha15343-000008"
-        // },
-        // {
-        //   "UniqId": "SEVA-FORM-aha15343-000009"
-        // },
-        // {
-        //   "UniqId": "SEVA-FORM-aha15343-000010"
-        // },
-        // {
-        //   "UniqId": "SEVA-FORM-aha15343-000011"
-        // },
-        // {
-        //   "UniqId": "SEVA-FORM-aha15343-000012"
-        // },
-        // {
-        //   "UniqId": "SEVA-FORM-aha15343-000013"
-        // },
-        // {
-        //   "UniqId": "SEVA-FORM-aha15343-000014"
-        // },
-        // {
-        //   "UniqId": "SEVA-FORM-aha15343-000015"
-        // },
-        // {
-        //   "UniqId": "SEVA-FORM-aha15343-000016"
-        // },
-        // {
-        //   "UniqId": "SEVA-FORM-aha15343-000017"
-        // },
-        // {
-        //   "UniqId": "SEVA-FORM-aha15343-000018"
-        // }
-      ]
-    console.log(ss.map(v=> v.UniqId))
-let as = ["ssas","aaa"]
-console.log(as)
         return (
             <Container style={{ marginLeft: "10PX", marginRight: "10PX" }}>
-                <span onClick={() => this.gaga()}>x</span>
                 <Row>
                     {this.state.data.map((v, idc) => (
 
